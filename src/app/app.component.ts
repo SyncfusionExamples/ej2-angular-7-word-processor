@@ -13,6 +13,6 @@ export class AppComponent {
   ngOnInit() {
     //Service URL is required for opening word documents in DocumentEditor
     //Documenation link: https://ej2.syncfusion.com/angular/documentation/document-editor/import/?no-cache=1#convert-word-documents-into-sfdt
-    this.serviceLink = 'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/import';
+    this.serviceLink = 'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/';
   }
 }
