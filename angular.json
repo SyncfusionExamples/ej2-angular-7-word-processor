@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular7-app:build"
+            "buildTarget": "angular7-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular7-app:build:production"
+              "buildTarget": "angular7-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular7-app:build"
+            "buildTarget": "angular7-app:build"
           }
         },
         "test": {
@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "angular7-app"
+  "defaultProject": "angular7-app",
+  "cli": {
+    "analytics": "6dc70616-cc64-462c-a989-209eb35fd361"
+  }
 }
